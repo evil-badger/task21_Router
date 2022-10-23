@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/task21_Router/static/css/main.19b33e80.css",
+    "main.js": "/task21_Router/static/js/main.0bfa2dc9.js",
+    "static/js/787.28cb0dcd.chunk.js": "/task21_Router/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/task21_Router/index.html",
+    "main.19b33e80.css.map": "/task21_Router/static/css/main.19b33e80.css.map",
+    "main.0bfa2dc9.js.map": "/task21_Router/static/js/main.0bfa2dc9.js.map",
+    "787.28cb0dcd.chunk.js.map": "/task21_Router/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19b33e80.css",
+    "static/js/main.0bfa2dc9.js"
+  ]
+}
