@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import { Outlet, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Link className="Orange" to="/">Вернуться домой</Link>
+        <Link className="Orange" to="/Page1">Нажать ссылку 1 и получить приветствие</Link>
+        <Link className="Orange" to="/Page2">Нажать ссылку 2 и получить карточки</Link>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Это начало всех начал. С этой страницы начинается наше путешествие к двум компонентам.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Outlet />
       </header>
     </div>
   );
 }
 
 export default App;
+
